@@ -1,0 +1,1995 @@
+body{
+    background-color: rgba(130, 248, 242, 0.196);
+    background-image: url('FONDO.png'); 
+    background-blend-mode:lighten;
+    background-size:95%;
+    background-position-x: center;
+    background-position-y: 8%;
+    
+    
+}
+p{
+    color:rgb(231, 231, 231);
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+h1{
+    color:rgb(255, 255, 255);
+}
+.menu {
+    width: 640px;
+    margin-left: 300px;
+}
+#menu {
+    margin: 0 auto;
+    text-align: center;
+}
+#puerta1 {
+    width: 15%;
+    position: absolute;
+    right: 18.5%;
+    top:17.3%;
+    display:flex;
+}
+#puerta2{
+    width: 15%;
+    position: absolute;
+    bottom: 19%;
+    right: 18.5%;
+}
+#puerta3{
+    width: 15%;
+    position: absolute;
+    left: 18.5%;
+    top:17.3%;
+}
+#puerta4{
+    width: 15%;
+    position: absolute;
+    bottom: 19%;
+    left: 18.5%;
+}
+#puerta5{
+    width: 30%;
+    position: absolute;
+    top: 18%;
+    left: 49.7%;
+    transform: translate(-50%, 0);
+    display:flex;
+}
+#puerta10{
+    width: 10%;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display:flex;
+}
+.cambio {
+    cursor: pointer; /* Cambia el cursor al pasar sobre el texto */
+
+}
+#q{
+    margin-left: 300px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+}
+#w{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    left: 20%;
+    top:10%
+}
+#e{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    right: 20%;
+    top:10%;   
+}
+#r{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    bottom:10%;
+    left:50%;
+}
+#t{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    top:65%;
+    left: 10%;
+}
+#y{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    top:65%;
+    right: 10%;
+}
+#u{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    top:40%;
+    right: 45%;
+}
+#i{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:40%;
+    left: 45%;
+
+}
+#qq{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    top:50%;
+    right: 45%;
+}
+#qs5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:3%;
+    right: 45%;
+}
+#ws5{
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+  
+    right: 15%;
+    top:3%
+
+}
+#es5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+
+    left: 15%;
+    top:3%
+}
+#rs5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    
+    position: absolute;
+    left: 20%;
+    top:13%   
+}
+#ts5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:13%;
+    right:20%;
+}
+#ys5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:26%;
+    right:45%;
+}
+#us5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:33%;
+    left:10%;
+}
+#is5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:33%;
+    right:10%;
+}
+#os5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:45%;
+    left: 5%;
+}
+#ps5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    top:45%;
+    right: 5%;
+}
+#as5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:55%;
+    left:10%;
+}
+#ss5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:55%;
+    right:10%;
+}
+#ds5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:65%;
+    right:35%;
+}
+#fs5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:65%;
+    left:35%;
+}
+#gs5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    top:80%;
+    left:20%;
+}
+#hs5{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:80%;
+    right:20%;
+}
+#des5{
+    width:8%;
+    position: absolute;
+    left:2%;
+    bottom:5%;
+}
+#qs2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+ 
+    top:50%;
+    right: 45%;
+}
+#ws2{
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+
+    right: 15%;
+    top:3%
+
+}
+#es2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    left: 15%;
+    top:3%
+}
+#rs2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+  
+    position: absolute;
+    left: 20%;
+    top:25%   
+}
+#ts2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+ 
+    top:25%;
+    right:20%;
+}
+#ys2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    top:60%;
+    right:45%;
+}
+#us2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:60%;
+    left:10%;
+}
+#is2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:80%;
+    right:35%;
+}
+#os2{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:80%;
+    left: 5%;
+}
+#qs3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:50%;
+    right: 35%;
+}
+#ws3{
+    position: absolute;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+
+    right: 15%;
+    top:3%
+
+}
+#es3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+
+    left: 30%;
+    top:3%
+}
+#rs3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+
+    position: absolute;
+    left: 17%;
+    top:33%   
+}
+#ts3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:90%;
+    right:4%;
+}
+#ys3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    top:90%;
+    right:35%;
+}
+#us3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    top:90%;
+    left:3%;
+}
+#is3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:25%;
+    right:10%;
+}
+#os3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top:25%;
+    left: 35%;
+}
+#ps3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    top:33%;
+    right: 3%;
+}
+#as3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:25%;
+    left:30%;
+}
+#ss3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+ 
+    top:25%;
+    right:10%;
+}
+#ds3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:25%;
+    left:5%;
+}
+#fs3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:25%;
+    right:5%;
+}
+#gs3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:25%;
+    left:5%;
+}
+#hs3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:25%;
+    right:5%;
+}
+#js3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:25%;
+    right:45%;
+}
+#ks3{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:80%;
+    right:40%;
+}
+#qs1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:2%;
+    right:55%;
+}
+#ws1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:10%;
+    left:5%;
+    
+}
+#os1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:10%;
+    right:35%;
+
+}
+#es1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:33%;
+    left:5%;
+}
+#rs1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    top:33%;
+    right:5%;
+}
+#ts1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:40%;
+    left:10%;
+}
+#ys1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+ 
+
+    top:40%;
+    right:10%;
+}
+#us1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+
+    top:50%;
+    right:50%;
+}
+#is1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:65%;
+    right:50%;
+}
+#ps1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+
+    bottom:5%;
+    left:5%;
+}
+#as1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+
+    bottom:5%;
+    right:5%;
+}
+#ss1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+
+    bottom:25%;
+    left:5%;
+
+}
+#ds1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+
+    bottom:25%;
+    left:20%;
+
+}
+#fs1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+
+    bottom:25%;
+    right:5%;
+
+}
+#gs1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+
+    bottom:25%;
+    right:25%;
+
+}
+#hs1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+
+    bottom:30%;
+    left:5%;
+
+}
+#js1{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+
+    top:33%;
+    right:45%;
+
+}
+#qs4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    
+    top: 3%;
+    right:50%;
+    
+}
+#ws4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    
+    top: 10%;
+    right:50%;
+    
+}
+#es4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    
+    top: 20%;
+    left:5%;   
+}
+#rs4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 20%;
+    left:35%;
+    
+}
+#ts4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top: 20%;
+    right:10%;
+    
+}
+#ys4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    
+    top: 35%;
+    right:45%;
+    
+}
+#us4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    
+    top: 55%;
+    left:5%;
+
+}
+#is4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top: 55%;
+    left:45%;
+
+}
+#os4{
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+ 
+    
+    top: 55%;
+    right:5%;
+
+}
+#ps4{
+
+    font-family:Georgia, Times, 'Times New Roman', serif ;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 70%;
+    right:45%;
+}
+#as4{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 85%;
+    right:15%;
+}
+#duda{
+    width:7%;
+    position: absolute;
+    right:38%;
+    top:1%;
+
+}
+#amor{
+    width:6%;
+    position: absolute;
+    left:25%;
+    top:33%;
+
+}
+#amoralas{
+    width:8%;
+    position: absolute;
+    right:25%;
+    top:39%;
+}
+#lluvia{
+    width:8%;
+    position: absolute;
+    left:29%;
+    top:48%;
+}
+#alma{
+    width:8%;
+    position: absolute;
+    left:4%;
+    bottom:18%;
+}
+#florsol{
+    width:8%;
+    position: absolute;
+    left:45%;
+    bottom:2%;
+}
+#humo{
+    width:8%;
+    position: absolute;
+    left:6%;
+    bottom:2%;
+}
+#ojo{
+    width:8%;
+    position: absolute;
+    right:6%;
+    bottom:2%;
+}
+#duda1{
+    width:6%;
+    position: absolute;
+    right:45%;
+    top:39%;
+
+}
+#amor1{
+    width:6%;
+    position: absolute;
+    right:52%;
+    top:37%;
+
+}
+#amoralas1{
+    width:6%;
+    position: absolute;
+    right:40%;
+    top:37%;
+
+}
+#lluvia1{
+    width:6%;
+    position: absolute;
+    left:40%;
+    top:49%;
+
+}
+#alma1{
+    width:6%;
+    position: absolute;
+    left:50%;
+    top:50%;
+
+}
+#florsol1{
+    width:6%;
+    position: absolute;
+    right:35%;
+    top:47%;
+}
+#humo1{
+    width:6%;
+    position: absolute;
+    right:45%;
+    top:28%;
+}
+#ojo1{
+    width:5%;
+    position: absolute;
+    right:45%;
+    bottom:26%;
+}
+#ver{
+    width:7%;
+    position: absolute;
+    left:5%;
+    top:48%;
+}
+#tortilla{
+    width:7%;
+    position: absolute;
+    left:27%;
+    top:10%;
+}
+#tortilla1{
+    width:7%;
+    position: absolute;
+    right:3%;
+    top:3%;
+}
+#tierra{
+    width:7%;
+    position: absolute;
+    right:40%;
+    top:18%;
+}
+#tierra1{
+    width:7%;
+    position: absolute;
+    right:3%;
+    top:17%;
+}
+#chocolate{
+    width:7%;
+    position: absolute;
+    right:30%;
+    top:35%;
+}
+#chocolate1{
+    width:7%;
+    position: absolute;
+    right:14%;
+    top:7%;
+}
+#jicara{
+    width:7%;
+    position: absolute;
+    right:38%;
+    top:40%;
+}
+#jicara1{
+    width:7%;
+    position: absolute;
+    right:14%;
+    top:19%;
+}
+#camaron{
+    width:7%;
+    position: absolute;
+    left:25%;
+    bottom:12%;
+}
+#camaron1{
+    width:7%;
+    position: absolute;
+    right:20%;
+    top:14%;
+}
+#estrella{
+    width:7%;
+    position: absolute;
+    left:40%;
+    bottom:3%;
+}
+#estrella1{
+    width:7%;
+    position: absolute;
+    right:3%;
+    top:3%;
+}
+#cama{
+    width:7%;
+    position: absolute;
+    left:3%;
+    bottom:13%;
+
+}
+#cama1{
+    width:7%;
+    position: absolute;
+    right:3%;
+    top:17%;
+}
+#algodon{
+    width:7%;
+    position: absolute;
+    left:25%;
+    bottom:12%;
+}
+#algodon1{
+    width:7%;
+    position: absolute;
+    right:14%;
+    top:6%;
+}
+#luna{
+    width:7%;
+    position: absolute;
+    right:2%;
+    bottom:13%;
+}
+#luna1{
+    width:7%;
+    position: absolute;
+    right:14%;
+    top:19%;
+}
+#corazon{
+    width:7%;
+    position: absolute;
+    right:35%;
+    bottom:13%;
+}
+#corazon1{
+    width:7%;
+    position: absolute;
+    right:20%;
+    top:14%;
+}
+#florg{
+    width:7%;
+    position: absolute;
+    left:15%;
+    top:20%;
+}
+#florg1{
+    width:7%;
+    position: absolute;
+    right:30%;
+    top:14%;
+}
+#petate{
+    width:7%;
+    position: absolute;
+    left:35%;
+    top:20%;
+}
+#petate1{
+    width:7%;
+    position: absolute;
+    right:25%;
+    top:1;
+}
+#ojovolcan{
+    width:7%;
+    position: absolute;
+    right:35%;
+    bottom:40%;
+}
+#ojovolcan1{
+    width:7%;
+    position: absolute;
+    right:3%;
+    bottom:1%;
+}
+#toro{
+    width:7%;
+    position: absolute;
+    right:25%;
+    top:3%;
+}
+#toro1{
+    width:7%;
+    position: absolute;
+    right:12%;
+    bottom:1%;
+}
+#pezuña{
+    width:7%;
+    position: absolute;
+    left:10%;
+    top:25%
+}
+#pezuña1{
+    width:7%;
+    position: absolute;
+    right:22%;
+    bottom:1%;
+}
+#mundo{
+    width:7%;
+    position: absolute;
+    right:9%;
+    top:25%;
+}
+#mundo1{
+    width:6%;
+    position: absolute;
+    right:3%;
+    bottom:17%;
+}
+#nube{
+    width:7%;
+    position: absolute;
+    left:40%;
+    bottom:16%;
+}
+#nube1{
+    width:7%;
+    position: absolute;
+    right:12%;
+    bottom:17%;
+}
+#mimida{
+    width:7%;
+    position: absolute;
+    left:20%;
+    top:47%
+}
+#mimida1{
+    width:7%;
+    position: absolute;
+    right:22%;
+    bottom:17%;
+}
+#espera{
+    width:7%;
+    position: absolute;
+    right:50%;
+    bottom:1%;
+}
+#espera1{
+    width:7%;
+    position: absolute;
+    right:7%;
+    bottom:27%;
+}
+#mearrojo{
+    width:8%;
+    position: absolute;
+    left:22%;
+    bottom:12%;
+}
+#mearrojo1{
+    width:7%;
+    position: absolute;
+    right:16%;
+    bottom:27%;
+}
+#nariz{
+    width:7%;
+    position: absolute;
+    right:4%;
+    bottom:4%;
+}
+#nariz1{
+    width:7%;
+    position: absolute;
+    left:2%;
+    top:2%;
+}
+#huevo{
+    width:5%;
+    position: absolute;
+    right:5%;
+    top:10%;
+}
+#huevo1{
+    width:5%;
+    position: absolute;
+    left:9%;
+    top:2%;
+}
+#gallina{
+    width:7%;
+    position: absolute;
+    right:10%;
+    top:10%;
+}
+#gallina1{
+    width:7%;
+    position: absolute;
+    left:14%;
+    top:2%;
+}
+#cocada{
+    width:7%;
+    position: absolute;
+    left:40%;
+    top:12%;
+}
+#cocada1{
+    width:7%;
+    position: absolute;
+    left:14%;
+    top:15%;
+}
+#loro{
+    width:7%;
+    position: absolute;
+    right:35%;
+    top:35%;
+}
+#loro1{
+    width:7%;
+    position: absolute;
+    left:2%;
+    top:15%;
+}
+#libertad{
+    width:7%;
+    position: absolute;
+    right:35%;
+    top:8%;
+}
+#libertad1{
+    width:5%;
+    position: absolute;
+    left:9%;
+    top:15%;
+}
+#floragua{
+    width:7%;
+    position: absolute;
+    left:15%;
+    top:50%;
+}
+#floragua1{
+    width:7%;
+    position: absolute;
+    left:6%;
+    top:25%;
+}
+#foto{
+    width:7%;
+    position: absolute;
+    right:13%;
+    top:50%;
+}
+#foto1{
+    width:7%;
+    position: absolute;
+    left:20%;
+    top:10%;
+}
+#perro{
+    width:7%;
+    position: absolute;
+    left:5%;
+    top:30%;
+}
+#perro1{
+    width:7%;
+    position: absolute;
+    left:5%;
+    bottom:2%;
+}
+#cielo{
+    width:7%;
+    position: absolute;
+    left:50%;
+    top:22%;
+}
+#cielo1{
+    width:7%;
+    position: absolute;
+    left:15%;
+    bottom:2%;
+}
+#sombrero{
+    width:7%;
+    position: absolute;
+    right:10%;
+    top:4%;
+}
+#sombrero1{
+    width:7%;
+    position: absolute;
+    left:25%;
+    bottom:2%;
+}
+#caracol{
+    width:7%;
+    position: absolute;
+    left:17%;
+    top:50%;
+}
+#caracol1{
+    width:7%;
+    position: absolute;
+    left:5%;
+    bottom:17%;
+}
+#vela{
+    width:7%;
+    position: absolute;
+    right:40%;
+    bottom:30%;
+}
+#vela1{
+    width:7%;
+    position: absolute;
+    left:15%;
+    bottom:17%;
+}
+#libro{
+    width:7%;
+    position: absolute;
+    right:7%;
+    bottom:3%;
+}
+#libro1{
+    width:7%;
+    position: absolute;
+    left:25%;
+    bottom:17%;
+}
+#cerdo{
+    width:7%;
+    position: absolute;
+    left:32%;
+    top:15%;
+}
+#qs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    
+    top: 1%;
+    left:2%;
+}
+#ws6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    
+    top: 8%;
+    left:2%;
+}
+#es6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    
+    top: 15%;
+    left:2%;
+}
+#rs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    
+    top: 22%;
+    left:2%;
+}
+#ts6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    
+    top: 7%;
+    left:20%;
+}
+#ys6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+   
+    
+    top: 17%;
+    left:25%;
+}
+#us6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top: 27%;
+    left:30%;
+}
+#is6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top: 17%;
+    left:40%;
+}
+#os6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 3%;
+    left:55%;
+}
+#ps6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+ 
+    
+    top: 17%;
+    left:65%;
+}
+#as6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top: 1%;
+    left:80%;
+}
+#ss6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+    
+    top: 27%;
+    left:80%;
+}
+#perrosombra{
+    width:7%;
+    position: absolute;
+    left:28%;
+    top:2%;
+}
+#persona{
+    width:7%;
+    position: absolute;
+    left:38%;
+    top:30%;
+}
+#tierra2{
+    width:7%;
+    position: absolute;
+    right:10%;
+    top:10%;
+}
+#ds6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 8%;
+    left:20%;
+}
+#fs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 18%;
+    left:10%;
+}
+#gs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 28%;
+    left:3%;
+}
+#hs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 18%;
+    left:38%;
+}
+#js6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 28%;
+    left:38%;
+}
+#ks6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;    
+    top: 2%;
+    left:47%;
+}
+#ls6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 13%;
+    left:60%;
+}
+#ñs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    
+    top: 25%;
+    left:60%;
+}
+#zs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 5%;
+    left:80%;
+}
+#xs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 25%;
+    left:80%;
+}
+#cs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 37%;
+    left:15%;
+}
+#vs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    
+    top: 37%;
+    left:70%;
+}
+#pasos{
+    width:7%;
+    position: absolute;
+    left:10%;
+    top:3%;
+}
+#zanate{
+    width:7%;
+    position: absolute;
+    left:40%;
+    top:25%;
+}
+#casa{
+    width:7%;
+    position: absolute;
+    left:62%;
+    top:23%;
+}
+#bs6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom: 40%;
+    left:40%;
+}
+#ns6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom: 34%;
+    left:5%;
+}
+#ms6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom: 14%;
+    left:5%;
+}
+#a1s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom: 30%;
+    left:30%;
+}
+#a2s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom: 10%;
+    left:30%;
+}
+#a3s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom: 40%;
+    left:65%;
+}
+#a4s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:20%;
+    left:50%;
+}
+#a5s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    bottom:5%;
+    left:50%;
+}
+#a6s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+  
+    bottom:30%;
+    left:75%;
+}
+#a7s6{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 15pt;
+    position: absolute;
+
+    bottom:7%;
+    right:10%;
+}
+#cocoro{
+    width:7%;
+    position: absolute;
+    left:10%;
+    bottom:2%;
+}
+#alas{
+    width:7%;
+    position: absolute;
+    left:35%;
+    bottom:10%;
+}
+#brujula{
+    width:7%;
+    position: absolute;
+    right:13%;
+    bottom:16%;
+}
+#beofin{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 120pt;
+    position: absolute;
+    color:aliceblue;
+    
+    top:10%;
+    left:35%;
+}
+#beoinicio{
+    font-family: 'Gill Sans';
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    font-size: 120pt;
+    position: absolute;
+    color:aliceblue;
+    
+    top:10%;
+    left:35%;
+}
